@@ -9,7 +9,8 @@
 
 import tensorflow as tf
 from tensorflow.keras import layers, optimizers, datasets, Sequential, regularizers
-from resnet2 import ResNet18
+from resnet import ResNet18
+# from resnet_cbam import ResNet18
 from utils import compute_mean_var, lr_schedule_200ep
 import numpy as np
 import random
